@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Draughts Game</title>
+    <link rel="stylesheet" href=".css">
+</head>
+<body>
+<div class="white_pieces" style="display:none"> </div>
+<div class="black_pieces" style="display:none"> </div>
+
+
+<div class="unit" style="display: none"> </div>
+<div class="dark_background" id="dark_background"> </div>
+
+<div class="table" id="table">
+
+    <div class="white_pieces"> </div>
+    <div class="white_pieces"> </div>
+    <div class="white_pieces"> </div>
+    <div class="white_pieces"> </div>
+    <div class="white_pieces"> </div>
+    <div class="white_pieces"> </div>
+    <div class="white_pieces"> </div>
+    <div class="white_pieces"> </div>
+    <div class="white_pieces"> </div>
+    <div class="white_pieces"> </div>
+    <div class="white_pieces"> </div>
+    <div class="white_pieces"> </div>
+
+    <div class="black_pieces"> </div>
+    <div class="black_pieces"> </div>
+    <div class="black_pieces"> </div>
+    <div class="black_pieces"> </div>
+    <div class="black_pieces"> </div>
+    <div class="black_pieces"> </div>
+    <div class="black_pieces"> </div>
+    <div class="black_pieces"> </div>
+    <div class="black_pieces"> </div>
+    <div class="black_pieces"> </div>
+    <div class="black_pieces"> </div>
+    <div class="black_pieces"> </div>
+
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+    <div class="unit dark_square"> </div>
+    <div class="unit light_square"> </div>
+</div>
+
+<h4>RULES</h4>
+<p>You can only move one checker one diagonal space forward during a regular turn. </p>
+<p>Once the player with white checkers makes their first move, the player with black checkers moves, and then you will take turns.</p>
+<p>If your checker is in the diagonal space nearest to one of your opponent's checkers, then you can jump and capture that checker.</p>
+<p>To capture a checker, move two diagonal spaces in the direction of the checker you are attacking.</p>
+<p>If you have the opportunity to jump your checker of opponent, you do not have to jump it.</p>
+<p>To crown a checker and make it a king checker, simply place one of your own captured pieces on top of it.</p>
+<p>The king can move forward and backward diagonally on the dark squares, so it is easier for king checkers to capture your checkers of opponent.</p>
+<p>Continue jumping and capturing your checkers of opponent until they are all removed from the board.</p>
+<p>Once you have captured all of your checkers of opponent, you have won the game.</p>
+<script src="draughts.js" > </script>
+</body>
+</html>
